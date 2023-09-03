@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+   
+}
+.loginContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    color:rgb(44, 44, 42);
+    padding:0px;
+}
+
+.start{
+    text-align: left;
+}
+
+.purple{
+    background-color: blueviolet;
+    padding: 3%;
+    border-radius: 7%;
+}
+
+.loginButton{
+    width: fit-content;
+    border: 1px blueviolet solid;
+    border-radius: 12px;
+    margin-left: 10px;
+    align-items: center;
+    color: blueviolet;
+}
+
+.flix{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.chat{
+    text-align: left;
+}
+
+.button{
+    background-color: blueviolet;
+}
+
+.loginImage{
+    margin-right: 10px;
+}
+
+.link{
+    border: 1px solid white;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px ;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.pitch{
+    border: 1px solid white;
+    width: 90%;
+    display: flex;
+    background-color:rgb(42, 45, 42) ;
+    justify-content: left;
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.message{
+    border: 1px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: right;
+}
+
+.darker{
+    padding: 5%;
+    display: flex;
+    border: 1px;
+    justify-content: left;
+}
+
+.nav{
+    display: flex;
+    border: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    justify-content:space-between;
+   
+}
+.row{
+    display: flex;
+}
+.column {
+    float: left;
+    }
+
+    .left {
+    width: 15%;
+    text-align: center;
+    display: flex;
+    }
+
+    .share{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
+.drag{
+    text-align: center;
+    padding: 10%;
+    margin: 5%;
+    border-radius: 5%;
+    border-color: rgb(78, 88, 78);
+    border: 20%;
+    border-style: dashed;
+}
+
+    .files{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .get{
+        display:flex;
+        width: 190px;
+        border: 8px solid rgb(44, 44, 42) ;
+       justify-content:space-between;
+        background-color: rgb(44, 44, 42);
+    }
+
+    .middle {
+        border-left: 2px solid rgb(78, 88, 78);
+        height: 580px;
+    width: 60%;
+    }
+    
+    .right {
+    width: 25%;
+    text-align: center;
+    border-left: 2px solid rgb(78, 88, 78);
+    }
+
+
+    .search{
+        border: 2px solid white;
+        display: flex;
+        justify-content: space-between;
+        margin:0 10px ;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
